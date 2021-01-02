@@ -1,0 +1,29 @@
+/* NAV */
+
+#main-nav {
+    transition: all 0.4s ease; /* anim de la navbar */
+  }
+  
+  .navbar-brand img {
+    width: 60px !important;
+    transition: all 0.4s ease; /* anim de la navbar */
+    border-radius: 50%;
+  } 
+  
+  .navbar a {
+    color: #fff !important;
+    font-family: 'Lato';
+    font-size: 22px;
+    font-weight: 700;
+    transition: all 0.4s ease; /* anim de la navbar */
+  }
+  
+  .navbar.opaque .navbar-brand img {
+    width: 30px !important; /* anim de la navbar */
+    transition: all 0.4s ease; /* anim de la navbar */
+  }
+  
+  .navbar.opaque a {
+    font-size: 18px; /* anim de la navbar */
+    transition: all 0.4s ease; /* anim de la navbar */
+  }

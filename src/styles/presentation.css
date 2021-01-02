@@ -1,0 +1,22 @@
+/* PRESENTATION */
+
+#presentation {
+    margin-top: 45px;
+    padding-bottom: 75px;
+  }
+  
+  .h2Presentation {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Kaushan Script";
+    font-size: 70px;
+  }
+  
+  .imagePresentation img {
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        border-radius: 30px !important;
+  }

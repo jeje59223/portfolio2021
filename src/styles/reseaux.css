@@ -1,0 +1,16 @@
+/* RESEAUX */
+
+#reseaux {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    background: url('../images/banniere1.png');
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#reseaux img {
+    width: 80px;
+}

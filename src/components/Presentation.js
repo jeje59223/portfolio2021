@@ -1,5 +1,6 @@
 import React from "react";
 import moi from "../images/moi.jpeg";
+import "../styles/presentation.css";
 
 const Presentation = () => {
     return (
@@ -15,7 +16,7 @@ const Presentation = () => {
                             compétence, c'est à dire développeur concepteur d'applications. J'ai beaucoup appris par 
                             moi-même via des cours sur le net. En 2019, j'ai fait un fongécif, chez M2I Formation Villeneuve d'Ascq 
                             pour découvrir le métier de développeur. J'ai eu une première expérience de développeur back-end PHP 
-                            chez ITROOM sur Hem. Puis j'ai eu l'opportunité de participer à un bootcamp de trois moi chez Fewlines à 
+                            chez ITROOM sur Hem. Puis j'ai eu l'opportunité de participer à un bootcamp de trois mois chez Fewlines à 
                             Lille, qui m'a permis d'intégrer le siège Leroy Merlin en tant de développeur web.
                         </p>
                     </div>
