@@ -10,8 +10,7 @@ header {
 .text-intro {
   padding-top: 300px;
   padding-bottom: 200px;
-  text-align: center;
-  
+  text-align: center;  
 }
 
 .preTxt {
@@ -20,6 +19,7 @@ header {
   color: #2f2d2d;
   line-height: 0.5;
   text-shadow: #fff 1px 0 25px;
+  text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff;
 }
 
 h1 {
@@ -28,6 +28,7 @@ h1 {
   font-family: 'Kaushan Script';
   font-weight: 700;
   text-shadow: #fff 1px 0 25px;
+  text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff;
 }
 
 

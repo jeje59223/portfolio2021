@@ -1,0 +1,18 @@
+/* Section Compétences */
+#competences {
+    padding-top: 70px;
+    padding-bottom: 100px;
+    border-bottom: 1px dashed #2f2d2d;
+}
+
+.h2Competences {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "Kaushan Script";
+    font-size: 70px;
+}
+
+#competences img {
+    width: 100px;
+    margin: 20px;
+}

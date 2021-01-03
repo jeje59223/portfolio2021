@@ -11,3 +11,7 @@
     font-family: "Kaushan Script";
     font-size: 70px;
 }
+
+.head {
+    cursor: pointer;
+}

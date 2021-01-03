@@ -1,0 +1,53 @@
+/* Projets */
+#cardProjet {    
+    height: 200px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+  }
+
+#portfolio {
+    min-height: 60rem !important;
+    height: auto;
+    border-bottom: 1px dashed #2f2d2d;
+}
+
+.h2Portfolio {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "Kaushan Script";
+    font-size: 70px;
+}
+
+.card-header {
+    font-family: 'Lato';
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#portfolio .card {
+    width: 300px;
+    max-height: 600px;
+    margin: 30px auto;
+    position: relative;
+    transition: 0.2s ease-in;
+    box-shadow: 0px 10px 30px black;
+}
+
+#portfolio .card:hover {
+    transform: scale(1.1);
+}
+
+#portfolio img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+
+#portfolio img:hover {
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    -webkit-transition:all 0.3s;
+    transition:all 0.3s;
+}

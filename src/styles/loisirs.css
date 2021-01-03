@@ -1,0 +1,35 @@
+/* LOISIRS */
+
+#loisirs {
+    position: relative;
+    min-height: 200px;
+    background: url('../images/Banniere2.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 45px;
+    
+}
+
+#carouselContent {
+    margin-top: 20px;
+    font-size: 35px;
+    color: #000;
+    font-weight: 400;
+}
+
+.h2Loisirs{
+    padding-top: 75px;
+    padding-bottom: 20px;
+    font-family: "Kaushan Script";
+    font-size: 70px;
+}
+
+.carousel-indicators li {
+    background-color: black;
+}
+
+p {
+    margin-bottom: 4rem !important;
+    text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff;
+}

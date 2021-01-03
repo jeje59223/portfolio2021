@@ -24,7 +24,7 @@ const ExperiencesPro = () => {
                     <div class="col-md-6">
                     <Accordion defaultActiveKey="0">
                     <Card>
-                        <Accordion.Toggle as={Card.Header} eventKey="0">
+                        <Accordion.Toggle as={Card.Header} eventKey="0" className="head">
                         De Septembre 2020 à Décembre 2020
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="0">
@@ -40,7 +40,7 @@ const ExperiencesPro = () => {
                         </Accordion.Collapse>
                     </Card>
                     <Card>
-                        <Accordion.Toggle as={Card.Header} eventKey="1">
+                        <Accordion.Toggle as={Card.Header} eventKey="1" className="head">
                         De Mars 2003 à Septembre 2020
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="1">
@@ -57,7 +57,7 @@ const ExperiencesPro = () => {
                         </Accordion.Collapse>
                     </Card>
                     <Card>
-                        <Accordion.Toggle as={Card.Header} eventKey="2">
+                        <Accordion.Toggle as={Card.Header} eventKey="2" className="head">
                             De Février à Juillet 2019
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="2">
@@ -72,7 +72,7 @@ const ExperiencesPro = () => {
                         </Accordion.Collapse>
                     </Card>
                     <Card>
-                        <Accordion.Toggle as={Card.Header} eventKey="3">
+                        <Accordion.Toggle as={Card.Header} eventKey="3" className="head">
                             De Juillet 2019 à Octobre 2019
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="3">
