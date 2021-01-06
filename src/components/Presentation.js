@@ -5,10 +5,10 @@ import "../styles/presentation.css";
 const Presentation = () => {
     return (
         <section id="presentation">
-            <div class="container">
-                <h2 class="text-center h2Presentation">Présentation</h2>
-                <div class="row align-items-center">
-                    <div class="col-md-6">
+            <div className="container">
+                <h2 className="text-center h2Presentation">Présentation</h2>
+                <div className="row align-items-center">
+                    <div className="col-md-6">
                         <h2>A Propos</h2>
                         <hr/>
                         <p>Bonjour, j'ai découvert le plaisir de coder en manipulant des cartes arduino et raspberry, 
@@ -20,7 +20,7 @@ const Presentation = () => {
                             Lille, qui m'a permis d'intégrer le siège Leroy Merlin en tant de développeur web.
                         </p>
                     </div>
-                    <div class="col-md-6 text-center imagePresentation">
+                    <div className="col-md-6 text-center imagePresentation">
                         <img src={moi} alt="Jérôme Cnockaert"/>
                     </div>
                 </div>

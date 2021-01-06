@@ -1,0 +1,141 @@
+[
+    {
+        "id": 1,
+        "title": "Games-Catalog",
+        "description": "Site qui présente des consoles et des jeux vidéo, avec une partie admin pour la partie gestion des consoles et des jeux. Ce site a été réalisé en NextJS, Bootstrap et du CSS",
+        "image": "dbz.png",
+        "technologies": [
+            {
+                "name": "NextJS"
+            },
+            {
+                "name": "Bootstrap"
+            },
+            {
+                "name": "CSS"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Cinévor-Moi",
+        "description": "Site qui présente des films. Il a été réalisé en NextJS, Bootstrap et CSS. Pour les données j'utilise l'API https://www.themoviedb.org/",
+        "image": "dbz.png",
+        "technologies": [
+            {
+                "name": "NextJS"
+            },
+            {
+                "name": "Bootstrap"
+            },
+            {
+                "name": "CSS"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Product-Locator",
+        "description": "Application qui aide la recherche de produit dans un magasin. Elle a été réalisé en NextJS, Bootstrap et CSS.",
+        "image": "dbz.png",
+        "technologies": [
+            {
+                "name": "NextJS"
+            },
+            {
+                "name": "Bootstrap"
+            },
+            {
+                "name": "CSS"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Flash-Cards",
+        "description": "Application de questions / réponses. Elle a été réalisé en React, Bootstrap et CSS.",
+        "image": "dbz.png",
+        "technologies": [
+            {
+                "name": "React"
+            },
+            {
+                "name": "Bootstrap"
+            },
+            {
+                "name": "CSS"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Spotify-Made-In-Fewlines",
+        "description": "Clone de la célèbre application de musiques. Elle a été réalisé en Next, Bootstrap et CSS. API Spotify utilisée avec compte premium afin de rendre l'application fonctionnelle.",
+        "image": "dbz.png",
+        "technologies": [
+            {
+                "name": "Next"
+            },
+            {
+                "name": "Bootstrap"
+            },
+            {
+                "name": "CSS"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Météo Jéjé",
+        "description": "Application météo. Elle a été réalisé en React, Bootstrap et CSS. J'utilise l'api https://home.openweathermap.org/",
+        "image": "dbz.png",
+        "technologies": [
+            {
+                "name": "React"
+            },
+            {
+                "name": "Bootstrap"
+            },
+            {
+                "name": "CSS"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Application Pokémon",
+        "description": "Application qui répertorie les pokémon. Elle a été réalisé en React, Bootstrap et CSS. J'utilise l'api https://pokeapi.co/api/v2/pokemon/ditto",
+        "image": "dbz.png",
+        "technologies": [
+            {
+                "name": "React"
+            },
+            {
+                "name": "Bootstrap"
+            },
+            {
+                "name": "CSS"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Votre Bibliothèque",
+        "description": "Application qui répertorie des livres. Elle a été réalisé en NodeJs, Bootstrap, JavaScript et CSS.",
+        "image": "dbz.png",
+        "technologies": [
+            {
+                "name": "React"
+            },
+            {
+                "name": "Bootstrap"
+            },
+            {
+                "name": "CSS"
+            },
+            {
+                "name": "JavaScript"
+            }
+        ]
+    }
+]

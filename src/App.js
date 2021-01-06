@@ -6,6 +6,8 @@ import ExperiencesPro from "./components/ExperiencesPro";
 import Loisirs from "./components/Loisirs";
 import Competences from "./components/Competences";
 import Projets from "./components/Projets";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Loisirs />
       <Competences />
       <Projets />
+      <Contact />
+      <Footer />
     </div>
   );
 }
