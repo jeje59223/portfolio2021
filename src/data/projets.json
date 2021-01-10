@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Games-Catalog",
         "description": "Site qui présente des consoles et des jeux vidéo, avec une partie admin pour la partie gestion des consoles et des jeux. Ce site a été réalisé en NextJS, Bootstrap et du CSS",
-        "image": "dbz.png",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfHAOj4KbzZVRAZtRhdo1hG-DnZJYJ_OW8bw&usqp=CAU",
         "technologies": [
             {
                 "name": "NextJS"
@@ -20,7 +20,7 @@
         "id": 2,
         "title": "Cinévor-Moi",
         "description": "Site qui présente des films. Il a été réalisé en NextJS, Bootstrap et CSS. Pour les données j'utilise l'API https://www.themoviedb.org/",
-        "image": "dbz.png",
+        "image": "../images/dbz.png",
         "technologies": [
             {
                 "name": "NextJS"
