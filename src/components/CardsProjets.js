@@ -17,11 +17,13 @@ const CardsProjects = ({projet}) => {
         <div className="col-12 col-md-6 col-lg-4" key={projet.id}>
         <Card style={{ minWidth: "18rem" }} className="projetsCards m-5">
         <Card.Header className="bg-dark cardhead">
+        <a href={imagesProjets[projet.id - 1]}>
             <Card.Img
             variant="top"
             src={imagesProjets[projet.id - 1]}
             alt={projet.title}
             />
+        </a>
         </Card.Header>
             <Card.Body className="text-center cardBody">
             <Card.Title>{projet.title}</Card.Title>

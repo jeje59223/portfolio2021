@@ -14,7 +14,7 @@ const Projets = () => {
             {
                 data.map((projet) => {
                     return (
-                        <CardsProjects projet={projet}/>
+                        <CardsProjects projet={projet} key={projet.id}/>
                     )
                 })
             }
