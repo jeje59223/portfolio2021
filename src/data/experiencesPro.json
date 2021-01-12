@@ -1,7 +1,42 @@
 [
     {
-        "id": 1,
-        "date": "De Décembre 2020 à Aujourd'hui"
-
+        "id": "1",
+        "periode": "De Décembre 2020 à Aujourd'hui",
+        "entreprise": "Leroy Merlin",
+        "ville": "Lezennes",
+        "poste": "Web Developer",
+        "missions": "Développeur Front-End React Junior. Au sein de la Digital & Data Factory, Plateforme des Services, Espace Partenaires (Tandem)."
+    },
+    {
+        "id": "2",
+        "periode": "De Septembre 2020 à Décembre 2020",
+        "entreprise": "Fewlines",
+        "ville": "Lille",
+        "poste": "Bootcamp Dévelopeur Web",
+        "missions": "Apprentissage de plusieurs languages tel que HTML, CSS, Bootstrap, JavaScript, NodeJS, React, Redux, React Native et NextJS. Nous avons appris à utiliser Git, Github et comme base de données MongoDB. Nous avons rélisées plusieurs projets durant cette formation qui m'ont permis de réussir ma reconversion Professionnelle et de devenir développeur web junior."
+    },
+    {
+        "id": "3",
+        "periode": "De Mars 2003 à Septembre 2020",
+        "entreprise": "Leroy Merlin",
+        "ville": "Villeneuve d'Ascq",
+        "poste": "Conseiller de vente expert",
+        "missions": "Fiabilisation des stocks et du taux de rupture. \"commandes, relevés de ruptures, inventaires,....\". Suivi des indicateurs pour atteindre les objectifs de ventes. Contact avec les fournisseurs. Formé pour répondre aux besoin des consommateurs dans un secteur conccurentiel. Elaboration et suivi de stratégies en équipe \"débriefing en réunion secteur\". Accueil, formation et évaluation des nouveaux recrutés. Force de proposition en centrale d'achat (nouveautés, services, etc....)."
+    },
+    {
+        "id": "4",
+        "periode": "De Février à Juillet 2019",
+        "entreprise": "M2I Formation",
+        "ville": "Villeneuve d'Ascq",
+        "poste": "Développeur Concepteur d'Applications",
+        "missions": "Apprentissage de plusieurs languages tel que HTML, CSS, JavaScript, PHP, Symfony, Java et Android Studio. Cette formation m'a permis d'obtenir mon certificat professionnel de Développeur Concepteur d'Applications, de niveau II, équivalent à une licence."
+    },
+    {
+        "id": "5",
+        "periode": "De Juillet 2019 à Octobre 2019",
+        "entreprise": "IT Room",
+        "ville": "Hem",
+        "poste": "Stage Développeur PHP Symfony",
+        "missions": "Développement d'une application permettant la suveillance de l'ensemble d'un parc applicatif. Maintenance d'application. Développement d'API (ApiPlatform)."
     }
 ]
