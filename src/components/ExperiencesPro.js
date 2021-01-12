@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/experiencesPro.css";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
+import completedTaskTitle from "../components/CompletedTaskTitle";
 
 const ExperiencesPro = () => {
     return (

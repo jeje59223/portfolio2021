@@ -7,3 +7,8 @@ footer img {
         -ms-filter: grayscale(100%);
         -o-filter: grayscale(100%);
 }
+
+.separate {
+    border-bottom: 3px #a8b4ae solid;
+    margin-bottom: 15px;
+}

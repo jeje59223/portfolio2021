@@ -15,9 +15,11 @@ const Footer = () => {
         <footer className="text-center p-4">
         <div className="container">
             <div className="col">
-                <p>Tous Droits Réservés &copy;
-                    <span id="year"></span> CNOCKAERT Jérôme
-                    <hr/>
+                <p>
+                    Tous Droits Réservés &copy;<span id="year"></span> CNOCKAERT Jérôme
+                </p>
+                <div className="separate"></div>
+                <p>
                     <a href="https://github.com/jeje59223"><img src={github} alt="github"/></a>
                     <a href="https://twitter.com/Jeje59223"><img src={twitter} alt="twitter"/></a>
                     <a href="https://www.linkedin.com/in/jerome-cnockaert-359a20181/"><img src={linkedin} alt="linkedin"/></a>
