@@ -1,5 +1,5 @@
 import './App.css';
-import BarreDeNav from "./components/BarreDeNav";
+import BarreDeNav from "./components/barreDeNav/BarreDeNav";
 import Presentation from "./components/Presentation";
 import Reseaux from "./components/Reseaux";
 import ExperiencesPro from "./components/ExperiencesPro";

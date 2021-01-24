@@ -4,7 +4,6 @@ import "../styles/loisirs.css";
 import data from "../data/loisirs.json";
 
 const Loisirs = () => {
-    console.log(data);
     return (
         <section id="loisirs" className="py-2">
             <h2 className="text-center h2Loisirs">Mes Loisirs</h2>

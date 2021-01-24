@@ -1,7 +1,7 @@
 import React from "react";
-import moi from "../images/moi.jpeg";
-import TextIntro from "./TextIntro";
-import "../styles/barreDeNav.css";
+import moi from "../../images/moi.jpeg";
+import TextIntro from "../TextIntro";
+import "../../styles/barreDeNav.css";
 
 const BarreDeNav = () => {
     return (
