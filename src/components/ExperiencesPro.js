@@ -1,8 +1,6 @@
-import React from "react";
-import "../styles/experiencesPro.css";
-import Accordion from "react-bootstrap/Accordion";
-import Card from "react-bootstrap/Card";
-import data from "../data/experiencesPro.json";
+import '../styles/experiencesPro.css';
+import Card from 'react-bootstrap/Card';
+import data from '../data/experiencesPro.json';
 
 const ExperiencesPro = () => {
     return (

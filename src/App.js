@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 import BarreDeNav from "./components/barreDeNav/BarreDeNav";
 import Presentation from "./components/Presentation";
 import Reseaux from "./components/Reseaux";

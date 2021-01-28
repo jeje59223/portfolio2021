@@ -1,17 +1,10 @@
-import React from "react";
-import github from "../images/github.png";
-import twitter from "../images/twitter.png";
-import linkedin from "../images/linkedin.png";
-import instagram from "../images/instagram.png";
-import "../styles/footer.css";
+import github from '../images/github.png';
+import twitter from '../images/twitter.png';
+import linkedin from '../images/linkedin.png';
+import instagram from '../images/instagram.png';
+import '../styles/footer.css';
 
-const Footer = () => {
-    // let today=new Date();
-    // let annee = today.getFullYear();
-    // let anneeActuelle = document.getElementById('year');
-    // anneeActuelle.innerHTML = annee;
-        
-    return (
+const Footer = () => (
         <footer className="text-center p-4">
         <div className="container">
             <div className="col">
@@ -28,7 +21,6 @@ const Footer = () => {
             </div>
         </div>
     </footer>
-    )
-}
+);
 
 export default Footer;
