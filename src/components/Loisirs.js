@@ -1,4 +1,6 @@
 import '../styles/loisirs.css';
+// eslint-disable-next-line no-unused-vars
+import { Carousel } from 'react-bootstrap';
 import data from '../data/loisirs.json';
 
 const Loisirs = () => (

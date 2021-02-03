@@ -1,3 +1,7 @@
+// eslint-disable-next-line no-unused-vars
+import Card from 'react-bootstrap/Card';
+// eslint-disable-next-line no-unused-vars
+import { Button } from 'react-bootstrap';
 import gamescatalog from '../images/dbz.png';
 import cinevormoi from '../images/cinevormoi.png';
 import productlocator from '../images/productlocator.png';

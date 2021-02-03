@@ -1,10 +1,11 @@
-import React from "react";
-import moi from "../../images/moi.jpeg";
-import TextIntro from "../TextIntro";
-import "../../styles/barreDeNav.css";
+// eslint-disable-next-line no-unused-vars
+import React from 'react';
+import moi from '../../images/moi.jpeg';
+// eslint-disable-next-line no-unused-vars
+import TextIntro from '../TextIntro';
+import '../../styles/barreDeNav.css';
 
-const BarreDeNav = () => {
-    return (
+const BarreDeNav = () => (
         <header id="top">
             <div className="container">
                 <nav className="navbar navbar-expand-md bg-dark navbar-dark fixed-top" id="main-nav">
@@ -40,7 +41,6 @@ const BarreDeNav = () => {
                 <TextIntro />
             </div>
         </header>
-    )
-}
+);
 
 export default BarreDeNav;

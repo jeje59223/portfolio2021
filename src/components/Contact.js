@@ -1,14 +1,15 @@
-import React from "react";
-import "../styles/contact.css";
+// eslint-disable-next-line no-unused-vars
+import React from 'react';
+import '../styles/contact.css';
 
-const Contact = () => {
-    return (
+const Contact = () => (
         <section id="contact" className="bg-light py-5">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
                         <h3>Contactez-moi</h3>
                         <p className="lead">
+                            {/* eslint-disable-next-line max-len */}
                         Une interrogation ? Un conseils ? Ou juste envie d'échanger avec moi ? N'hésitez pas à me contacter !
                         </p>
                         <form>
@@ -30,7 +31,5 @@ const Contact = () => {
                 </div>
             </div>
         </section>
-    )
-}
-
+);
 export default Contact;

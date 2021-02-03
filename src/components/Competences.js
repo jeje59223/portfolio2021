@@ -18,6 +18,7 @@ const Competences = () => {
                         <hr/>
                         <p>
                             // eslint-disable-next-line max-len
+                            {/* eslint-disable-next-line max-len */}
                             Je suis d'abord et avant tout un passionné ! J'adore apprendre et avant t'intégrer M2I Formations j'ai suivi beaucoup de tutoriel sur internet et me suis formé en autodidacte sur OpenclassNameRoom, Udemy, CodeCademy, H2PROG, etc... J'ai ensuite suivi une formation de Développeur Concepteur d'application et obtenu le certificat professionnel RNCP, niveau II (licence). Enfin j'ai suivi un bootcamp de trois mois chez Fewlines à Lille, qui m'a permis d'intégrer le siège Leroy Merlin en tant sue développeur web.
                         </p>
                     </div>

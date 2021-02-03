@@ -1,12 +1,12 @@
-import React from "react";
-import linkedin from "../images/linkedin.png";
-import instagram from "../images/instagram.png";
-import twitter from "../images/twitter.png";
-import github from "../images/github.png";
-import "../styles/reseaux.css";
+// eslint-disable-next-line no-unused-vars
+import React from 'react';
+import linkedin from '../images/linkedin.png';
+import instagram from '../images/instagram.png';
+import twitter from '../images/twitter.png';
+import github from '../images/github.png';
+import '../styles/reseaux.css';
 
-const Reseaux = () => {
-    return (
+const Reseaux = () => (
         <section id="reseaux">
             <div className="container my-5">
                 <div className="row">
@@ -33,7 +33,6 @@ const Reseaux = () => {
                 </div>
             </div>
         </section>
-    )
-}
+);
 
 export default Reseaux;
