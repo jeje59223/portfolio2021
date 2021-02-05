@@ -1,4 +1,5 @@
-import cv from '../images/cv.pdf';
+import React from 'react';
+import cv from '../../images/cv.pdf';
 
 const TextIntro = () => (
   <div className="text-intro">

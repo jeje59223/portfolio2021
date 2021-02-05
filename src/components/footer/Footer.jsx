@@ -1,8 +1,9 @@
-import github from '../images/github.png';
-import twitter from '../images/twitter.png';
-import linkedin from '../images/linkedin.png';
-import instagram from '../images/instagram.png';
-import '../styles/footer.css';
+import React from 'react';
+import github from '../../images/github.png';
+import twitter from '../../images/twitter.png';
+import linkedin from '../../images/linkedin.png';
+import instagram from '../../images/instagram.png';
+import '../../styles/footer.css';
 
 const Footer = () => (
   <footer className="text-center p-4">

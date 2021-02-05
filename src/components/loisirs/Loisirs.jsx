@@ -1,7 +1,7 @@
-import '../styles/loisirs.css';
-// eslint-disable-next-line no-unused-vars
+import React from 'react';
+import '../../styles/loisirs.css';
 import { Carousel } from 'react-bootstrap';
-import data from '../data/loisirs.json';
+import data from '../../data/loisirs.json';
 
 const Loisirs = () => (
   <section id="loisirs" className="py-2">

@@ -1,9 +1,7 @@
-// eslint-disable-next-line no-unused-vars
 import React from 'react';
-import '../styles/projets.css';
-// eslint-disable-next-line no-unused-vars
-import CardsProjects from './CardsProjets';
-import data from '../data/projets.json';
+import '../../styles/projets.css';
+import CardsProjects from '../cardsProjects/CardsProjets';
+import data from '../../data/projets.json';
 
 const Projets = () => (
   <section id="portfolio">
