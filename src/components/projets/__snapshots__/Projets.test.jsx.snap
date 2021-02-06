@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Projets> should render Projets Component 1`] = `
+<section
+  id="portfolio"
+>
+  <h2
+    className="text-center h2Portfolio"
+  >
+    Portfolio
+  </h2>
+  <div
+    className="row"
+  >
+    <CardsProjects
+      key="1"
+      projet={
+        Object {
+          "description": "Site qui présente des consoles et des jeux vidéo, avec une partie admin pour la partie gestion des consoles et des jeux. Ce site a été réalisé en NextJS, Bootstrap et du CSS",
+          "id": 1,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfHAOj4KbzZVRAZtRhdo1hG-DnZJYJ_OW8bw&usqp=CAU",
+          "technologies": Array [
+            Object {
+              "name": "NextJS",
+            },
+            Object {
+              "name": "Bootstrap",
+            },
+            Object {
+              "name": "CSS",
+            },
+          ],
+          "title": "Games-Catalog",
+        }
+      }
+    />
+    <CardsProjects
+      key="2"
+      projet={
+        Object {
+          "description": "Site qui présente des films. Il a été réalisé en NextJS, Bootstrap et CSS. Pour les données j'utilise l'API https://www.themoviedb.org/",
+          "id": 2,
+          "image": "../images/dbz.png",
+          "technologies": Array [
+            Object {
+              "name": "NextJS",
+            },
+            Object {
+              "name": "Bootstrap",
+            },
+            Object {
+              "name": "CSS",
+            },
+          ],
+          "title": "Cinévor-Moi",
+        }
+      }
+    />
+    <CardsProjects
+      key="3"
+      projet={
+        Object {
+          "description": "Application qui aide la recherche de produit dans un magasin. Elle a été réalisé en NextJS, Bootstrap et CSS.",
+          "id": 3,
+          "image": "dbz.png",
+          "technologies": Array [
+            Object {
+              "name": "NextJS",
+            },
+            Object {
+              "name": "Bootstrap",
+            },
+            Object {
+              "name": "CSS",
+            },
+          ],
+          "title": "Product-Locator",
+        }
+      }
+    />
+    <CardsProjects
+      key="4"
+      projet={
+        Object {
+          "description": "Application de questions / réponses. Elle a été réalisé en React, Bootstrap et CSS.",
+          "id": 4,
+          "image": "dbz.png",
+          "technologies": Array [
+            Object {
+              "name": "React",
+            },
+            Object {
+              "name": "Bootstrap",
+            },
+            Object {
+              "name": "CSS",
+            },
+          ],
+          "title": "Flash-Cards",
+        }
+      }
+    />
+    <CardsProjects
+      key="5"
+      projet={
+        Object {
+          "description": "Clone de la célèbre application de musiques. Elle a été réalisé en Next, Bootstrap et CSS. API Spotify utilisée avec compte premium afin de rendre l'application fonctionnelle.",
+          "id": 5,
+          "image": "dbz.png",
+          "technologies": Array [
+            Object {
+              "name": "Next",
+            },
+            Object {
+              "name": "Bootstrap",
+            },
+            Object {
+              "name": "CSS",
+            },
+          ],
+          "title": "Spotify-Made-In-Fewlines",
+        }
+      }
+    />
+    <CardsProjects
+      key="6"
+      projet={
+        Object {
+          "description": "Application météo. Elle a été réalisé en React, Bootstrap et CSS. J'utilise l'api https://home.openweathermap.org/",
+          "id": 6,
+          "image": "dbz.png",
+          "technologies": Array [
+            Object {
+              "name": "React",
+            },
+            Object {
+              "name": "Bootstrap",
+            },
+            Object {
+              "name": "CSS",
+            },
+          ],
+          "title": "Météo Jéjé",
+        }
+      }
+    />
+    <CardsProjects
+      key="7"
+      projet={
+        Object {
+          "description": "Application qui répertorie les pokémon. Elle a été réalisé en React, Bootstrap et CSS. J'utilise l'api https://pokeapi.co/api/v2/pokemon/ditto",
+          "id": 7,
+          "image": "dbz.png",
+          "technologies": Array [
+            Object {
+              "name": "React",
+            },
+            Object {
+              "name": "Bootstrap",
+            },
+            Object {
+              "name": "CSS",
+            },
+          ],
+          "title": "Application Pokémon",
+        }
+      }
+    />
+    <CardsProjects
+      key="8"
+      projet={
+        Object {
+          "description": "Application qui répertorie des livres. Elle a été réalisé en NodeJs, Bootstrap, JavaScript et CSS.",
+          "id": 8,
+          "image": "dbz.png",
+          "technologies": Array [
+            Object {
+              "name": "React",
+            },
+            Object {
+              "name": "Bootstrap",
+            },
+            Object {
+              "name": "CSS",
+            },
+            Object {
+              "name": "JavaScript",
+            },
+          ],
+          "title": "Votre Bibliothèque",
+        }
+      }
+    />
+  </div>
+</section>
+`;

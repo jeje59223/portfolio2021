@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardsProjects> should render CardsProjects 1`] = `
+<div
+  className="col-12 col-md-6 col-lg-4"
+  key="1"
+>
+  <Card
+    body={false}
+    className="projetsCards m-5"
+    style={
+      Object {
+        "minWidth": "18rem",
+      }
+    }
+  >
+    <CardHeader
+      className="bg-dark cardhead"
+    >
+      <CardImg
+        alt="Games-Catalog"
+        className="img"
+        src="dbz.png"
+        variant="top"
+      />
+    </CardHeader>
+    <CardBody
+      className="text-center cardBody"
+    >
+      <CardTitle>
+        Games-Catalog
+      </CardTitle>
+      <CardText>
+        Site qui présente des consoles et des jeux vidéo, avec une partie admin pour la partie gestion des consoles et des jeux. Ce site a été réalisé en NextJS, Bootstrap et du CSS
+      </CardText>
+    </CardBody>
+    <CardFooter
+      className="text-muted text-center"
+    >
+      <Button
+        active={false}
+        disabled={false}
+        variant="secondary"
+      >
+        Details
+      </Button>
+    </CardFooter>
+  </Card>
+</div>
+`;

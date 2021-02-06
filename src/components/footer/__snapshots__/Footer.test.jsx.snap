@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer> should render Footer 1`] = `
+<footer
+  className="text-center p-4"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="col"
+    >
+      <p>
+        Tous Droits Réservés ©
+        <span
+          id="year"
+        />
+         
+        CNOCKAERT Jérôme
+      </p>
+      <div
+        className="separate"
+      />
+      <p>
+        <a
+          href="https://github.com/jeje59223"
+        >
+          <img
+            alt="github"
+            src="github.png"
+          />
+        </a>
+        <a
+          href="https://twitter.com/Jeje59223"
+        >
+          <img
+            alt="twitter"
+            src="twitter.png"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/jerome-cnockaert-359a20181/"
+        >
+          <img
+            alt="linkedin"
+            src="linkedin.png"
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/cnockaert59223/"
+        >
+          <img
+            alt="instagram"
+            src="instagram.png"
+          />
+        </a>
+      </p>
+    </div>
+  </div>
+</footer>
+`;

@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Contact> should render Contact Form 1`] = `
+<section
+  className="bg-light py-5"
+  id="contact"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-lg-12"
+      >
+        <h3>
+          Contactez-moi
+        </h3>
+        <p
+          className="lead"
+        >
+          Une interrogation ? Un conseils ? Ou juste envie d'échanger avec moi ? N'hésitez pas à me contacter !
+        </p>
+        <form>
+          <div
+            className="input-group mb-3"
+          >
+            <span
+              className="input-group-text"
+              id="basic-addon1"
+            >
+              <i
+                className="fas fa-user"
+              />
+            </span>
+            <input
+              aria-describedby="basic-addon1"
+              aria-label="Username"
+              className="form-control"
+              placeholder="Username"
+              type="text"
+            />
+          </div>
+          <div
+            className="input-group mb-3"
+          >
+            <span
+              className="input-group-text"
+              id="basic-addon1"
+            >
+              <i
+                className="fas fa-envelope"
+              />
+            </span>
+            <input
+              aria-describedby="basic-addon1"
+              aria-label="Username"
+              className="form-control"
+              placeholder="Email"
+              type="mail"
+            />
+          </div>
+          <div
+            className="input-group"
+          >
+            <span
+              className="input-group-text"
+            >
+              <i
+                className="fas fa-pencil-alt"
+              />
+            </span>
+            <textarea
+              aria-label="With textarea"
+              className="form-control"
+              rows="5"
+            />
+          </div>
+          <input
+            className="btn btn-secondary btn-block btn-lg mt-3"
+            type="submit"
+            value="Envoyer"
+          />
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+`;
