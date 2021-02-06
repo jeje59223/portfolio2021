@@ -27,6 +27,7 @@ exports[`<BarreDeNav> should render Navigation Bar 1`] = `
           className="navbar-toggler"
           data-target="#navbarCollapse"
           data-toggle="collapse"
+          type="button"
         >
           <span
             className="navbar-toggler-icon"
