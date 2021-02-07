@@ -28,7 +28,7 @@ const ExperiencesPro = () => (
           <Accordion defaultActiveKey="1">
             {
               data.map((experience) => (
-                <Card>
+                <Card key={experience.id}>
                   <Accordion.Toggle as={Card.Header} eventKey={experience.id} className="head">
                     {experience.periode}
                   </Accordion.Toggle>

@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Competences> should render Competences 1`] = `
+<section
+  id="competences"
+>
+  <div
+    className="container"
+  >
+    <h2
+      className="text-center h2Loisirs"
+    >
+      Mes Compétences
+    </h2>
+    <div
+      className="row align-items-center"
+    >
+      <div
+        className="col-md-6 competences"
+      >
+        <h2>
+          Comment je me suis formé ?
+        </h2>
+        <hr />
+        <p>
+          Je suis d'abord et avant tout un passionné ! J'adore apprendre et avant t'intégrer M2I Formations j'ai suivi beaucoup de tutoriel sur internet et me suis formé en autodidacte sur OpenclassNameRoom, Udemy, CodeCademy, H2PROG, etc... J'ai ensuite suivi une formation de Développeur Concepteur d'application et obtenu le certificat professionnel RNCP, niveau II (licence). Enfin j'ai suivi un bootcamp de trois mois chez Fewlines à Lille, qui m'a permis d'intégrer le siège Leroy Merlin en tant sue développeur web.
+        </p>
+      </div>
+      <div
+        className="col-md-6 pt-1"
+      >
+        <div
+          className="col text-center"
+        >
+          <img
+            alt="html5"
+            src="html5.png"
+            title="html5"
+          />
+          <img
+            alt="css3"
+            src="css3.png"
+            title="css3"
+          />
+          <img
+            alt="javascript"
+            src="js.png"
+            title="JavaScript"
+          />
+        </div>
+        <div
+          className="col text-center"
+        >
+          <img
+            alt="nextJs"
+            src="nextjs.png"
+            title="NextJS"
+          />
+          <img
+            alt="react"
+            src="react.png"
+            title="React"
+          />
+          <img
+            alt="nodeJS"
+            src="node.png"
+            title="NodeJS"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;
