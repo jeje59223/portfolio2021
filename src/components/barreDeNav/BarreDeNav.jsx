@@ -6,11 +6,11 @@ import '../../styles/barreDeNav.css';
 const BarreDeNav = () => (
   <header id="top">
     <div className="container">
-  <nav className="navbar navbar-expand-md bg-dark navbar-dark fixed-top" id="main-nav">
+      <nav className="navbar navbar-expand-md bg-dark navbar-dark fixed-top" id="main-nav">
         <div className="container">
-          <a href="index.html" className="navbar-brand"><img src={moi} alt="moi"/></a>
+          <a href="index.html" className="navbar-brand"><img src={moi} alt="moi" /></a>
           <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span className="navbar-toggler-icon"/>
+            <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <ul className="navbar-nav ml-auto">
@@ -36,7 +36,7 @@ const BarreDeNav = () => (
           </div>
         </div>
       </nav>
-      <TextIntro/>
+      <TextIntro />
     </div>
   </header>
 );
