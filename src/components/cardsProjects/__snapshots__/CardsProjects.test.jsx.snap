@@ -33,17 +33,41 @@ exports[`<CardsProjects> should render CardsProjects 1`] = `
       <CardText>
         Site qui présente des consoles et des jeux vidéo, avec une partie admin pour la partie gestion des consoles et des jeux. Ce site a été réalisé en NextJS, Bootstrap et du CSS
       </CardText>
+      <CardText>
+        <span
+          className="badge bg-secondary m-1"
+          key="0"
+        >
+          NextJS
+        </span>
+        <span
+          className="badge bg-secondary m-1"
+          key="1"
+        >
+          Bootstrap
+        </span>
+        <span
+          className="badge bg-secondary m-1"
+          key="2"
+        >
+          CSS
+        </span>
+      </CardText>
     </CardBody>
     <CardFooter
       className="text-muted text-center"
     >
-      <Button
-        active={false}
-        disabled={false}
-        variant="secondary"
+      <Link
+        to="/detail/1"
       >
-        Details
-      </Button>
+        <Button
+          active={false}
+          disabled={false}
+          variant="secondary"
+        >
+          Details
+        </Button>
+      </Link>
     </CardFooter>
   </Card>
 </div>

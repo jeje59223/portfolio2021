@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import { Button } from 'react-bootstrap';
 import gamescatalog from '../../images/dbz.png';
@@ -35,9 +36,18 @@ const CardsProjects = ({ projet }) => {
         <Card.Body className="text-center cardBody">
           <Card.Title>{projet.title}</Card.Title>
           <Card.Text>{projet.description}</Card.Text>
+          <Card.Text>
+            {
+              projet.technologies.map(
+                (t,index) => <span key={index} className="badge bg-secondary m-1">{t.name}</span>,
+              )
+            }
+          </Card.Text>
         </Card.Body>
         <Card.Footer className="text-muted text-center">
-          <Button variant="secondary">Details</Button>
+          <Link to={`/detail/${projet.id}`}>
+            <Button variant="secondary">Details</Button>
+          </Link>
         </Card.Footer>
       </Card>
     </div>

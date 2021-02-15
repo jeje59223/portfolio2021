@@ -1,6 +1,5 @@
 import React from 'react';
-import moi from '../../images/moi.jpeg';
-import TextIntro from '../textIntro/TextIntro';
+import moi from '../../images/moi.jpeg'
 import '../../styles/barreDeNav.css';
 
 const BarreDeNav = () => (
@@ -8,7 +7,7 @@ const BarreDeNav = () => (
     <div className="container">
       <nav className="navbar navbar-expand-md bg-dark navbar-dark fixed-top" id="main-nav">
         <div className="container">
-          <a href="index.html" className="navbar-brand"><img src={moi} alt="moi" /></a>
+          <a href="#top" className="navbar-brand"><img src={moi} alt="moi" /></a>
           <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span className="navbar-toggler-icon" />
           </button>
@@ -36,7 +35,6 @@ const BarreDeNav = () => (
           </div>
         </div>
       </nav>
-      <TextIntro />
     </div>
   </header>
 );

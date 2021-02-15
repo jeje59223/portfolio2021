@@ -14,9 +14,13 @@ const ExperiencesPro = () => (
           <hr />
           <h4>
             {data[0].entreprise}
+            {' '}
             à
+            {' '}
             {data[0].ville}
+            {' '}
             |
+            {' '}
             {data[0].poste}
           </h4>
           <p>
@@ -36,9 +40,13 @@ const ExperiencesPro = () => (
                     <Card.Body>
                       <h4>
                         {experience.entreprise}
+                        {' '}
                         à
+                        {' '}
                         {experience.ville}
+                        {' '}
                         |
+                        {' '}
                         {experience.poste}
                       </h4>
                       <p>

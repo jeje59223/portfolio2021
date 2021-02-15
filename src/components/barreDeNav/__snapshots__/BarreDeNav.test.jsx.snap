@@ -1,110 +1,105 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<BarreDeNav> should render Navigation Bar 1`] = `
-<header
-  id="top"
+<div
+  className="container"
 >
-  <div
-    className="container"
+  <nav
+    className="navbar navbar-expand-md bg-dark navbar-dark fixed-top"
+    id="main-nav"
   >
-    <nav
-      className="navbar navbar-expand-md bg-dark navbar-dark fixed-top"
-      id="main-nav"
+    <div
+      className="container"
     >
-      <div
-        className="container"
+      <a
+        className="navbar-brand"
+        href="#top"
       >
-        <a
-          className="navbar-brand"
-          href="index.html"
+        <img
+          alt="moi"
+          src="moi.jpeg"
+        />
+      </a>
+      <button
+        className="navbar-toggler"
+        data-target="#navbarCollapse"
+        data-toggle="collapse"
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        className="collapse navbar-collapse"
+        id="navbarCollapse"
+      >
+        <ul
+          className="navbar-nav ml-auto"
         >
-          <img
-            alt="moi"
-            src="moi.jpeg"
-          />
-        </a>
-        <button
-          className="navbar-toggler"
-          data-target="#navbarCollapse"
-          data-toggle="collapse"
-          type="button"
-        >
-          <span
-            className="navbar-toggler-icon"
-          />
-        </button>
-        <div
-          className="collapse navbar-collapse"
-          id="navbarCollapse"
-        >
-          <ul
-            className="navbar-nav ml-auto"
+          <li
+            className="nav-item mr-3"
           >
-            <li
-              className="nav-item mr-3"
+            <a
+              className="nav-link"
+              href="#top"
             >
-              <a
-                className="nav-link"
-                href="#top"
-              >
-                Accueil
-              </a>
-            </li>
-            <li
-              className="nav-item mr-3"
+              Accueil
+            </a>
+          </li>
+          <li
+            className="nav-item mr-3"
+          >
+            <a
+              className="nav-link"
+              href="#presentation"
             >
-              <a
-                className="nav-link"
-                href="#presentation"
-              >
-                Présentation
-              </a>
-            </li>
-            <li
-              className="nav-item mr-3"
+              Présentation
+            </a>
+          </li>
+          <li
+            className="nav-item mr-3"
+          >
+            <a
+              className="nav-link"
+              href="#experiencesProfessionnelles"
             >
-              <a
-                className="nav-link"
-                href="#experiencesProfessionnelles"
-              >
-                Expériences Professionnelles
-              </a>
-            </li>
-            <li
-              className="nav-item mr-3"
+              Expériences Professionnelles
+            </a>
+          </li>
+          <li
+            className="nav-item mr-3"
+          >
+            <a
+              className="nav-link"
+              href="#competences"
             >
-              <a
-                className="nav-link"
-                href="#competences"
-              >
-                Compétences
-              </a>
-            </li>
-            <li
-              className="nav-item mr-3"
+              Compétences
+            </a>
+          </li>
+          <li
+            className="nav-item mr-3"
+          >
+            <a
+              className="nav-link"
+              href="#portfolio"
             >
-              <a
-                className="nav-link"
-                href="#portfolio"
-              >
-                Projets
-              </a>
-            </li>
-            <li
-              className="nav-item mr-3"
+              Projets
+            </a>
+          </li>
+          <li
+            className="nav-item mr-3"
+          >
+            <a
+              className="nav-link"
+              href="#contact"
             >
-              <a
-                className="nav-link"
-                href="#contact"
-              >
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
+              Contact
+            </a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <TextIntro />
-  </div>
-</header>
+    </div>
+  </nav>
+</div>
 `;
