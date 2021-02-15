@@ -39,7 +39,7 @@ const CardsProjects = ({ projet }) => {
           <Card.Text>
             {
               projet.technologies.map(
-                (t,index) => <span key={index} className="badge bg-secondary m-1">{t.name}</span>,
+                (t) => <span key={projet.id} className="badge bg-secondary m-1">{t.name}</span>,
               )
             }
           </Card.Text>
